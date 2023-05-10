@@ -9,7 +9,7 @@ export default function Home() {
 			<div className="my-8 flex justify-center">
 				<Slider />
 			</div>
-			<div className="w-[69.375rem] grid grid-cols-5 gap-x-2 gap-y-4 place-content-center mb-8">
+			<div className="w-[90vw] lg:w-[69.375rem] grid grid-cols-2 lg:grid-cols-6 gap-x-2 gap-y-4 place-content-center mb-8">
 				{dummyItems.map((item, idx) => {
 					return (
 						<>

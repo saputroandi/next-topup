@@ -8,7 +8,7 @@ function Navigation({}: Props) {
 			<div className="cursor-pointer p-4">
 				<p>NextTopup</p>
 			</div>
-			<div className="flex w-min-1/4 justify-between">
+			<div className="md:flex hidden w-min-1/4 justify-between">
 				<div className="cursor-pointer p-4">
 					<p>Halaman Utama</p>
 				</div>

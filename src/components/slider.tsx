@@ -54,7 +54,7 @@ const Slider = (props: Props) => {
 						<motion.img
 							src={images[slide].src}
 							alt={images[slide].desc}
-							className="w-[69.375rem] h-[26.625rem] rounded-md object-cover object-center"
+							className="w-[90vw] md:w-[69.375rem] md:h-[26.625rem] rounded-md object-cover object-center"
 							drag="x"
 							dragConstraints={{ left: 0, right: 0 }}
 							dragElastic={1}
