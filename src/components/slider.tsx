@@ -38,7 +38,7 @@ const Slider = (props: Props) => {
 		<div className="flex items-center justify-center">
 			<AnimatePresence initial={false} mode="wait" custom={direction}>
 				<motion.div
-					className="flex flex-col items-center overflow-hidden text-center"
+					className="flex flex-col items-center overflow-hidden text-center shadow-md"
 					key={slide}
 					variants={variants}
 					custom={direction}
@@ -71,18 +71,18 @@ const Slider = (props: Props) => {
 					</div>
 				</motion.div>
 			</AnimatePresence>
-			<div
+			{/* <div
 				className="absolute top-1/2 right-2 z-20 hidden cursor-pointer md:block"
 				onClick={() => paginate(-1)}
 			>
-				{/* <ArrowRight /> */}
+				<ArrowRight />
 			</div>
 			<div
 				className="absolute top-1/2 left-2 z-20 hidden cursor-pointer md:block"
 				onClick={() => paginate(1)}
 			>
-				{/* <ArrowLeft /> */}
-			</div>
+				<ArrowLeft />
+			</div> */}
 		</div>
 	);
 };
